@@ -16,7 +16,7 @@ app.use("/",route_view(express));
 app.use("/api_v1",route(express));
 app.use("/upload",route(express));
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log('Success running 3000');
 });
 
